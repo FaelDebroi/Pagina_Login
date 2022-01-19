@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Login-helper</title>
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="./index.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c127ebeb74.js" crossorigin="anonymous" defer></script>
+    
+</head>
+        <body>
+            <header>
+                    <h1>Login-helper</h1>
+            </header>
+        <main>
+            <form>
+                     <section class="inputs-conteiner">
+                       
+                        <input type="email" placeholder="rafaeldebroi@gmail.com" id="Gmailenviar" name="">
+                     
+                         
+                        <div class="password-conteiner">
+                        <input type="password" id="field-password" class="field-password" placeholder="***********" name="">
+
+                        <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                        <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                    </div>
+                    </section>
+
+                     <section class="password-info">
+                        <div>
+                            <input type="checkbox">
+                            <span> Lembrar Senha</span>
+                        </div>
+
+                        <a href="#" id="esqueceu-senha">Esqueceu sua Senha</a>
+
+                    </section>
+
+                        <button id="btn-login">login</button>
+
+                    
+
+                     <section class="links-conteiner">
+                         <span>Ou entre com:</span>
+
+                         <aside>
+                            <a href=""><i class="fab fa-google google" ></i></a>
+                            <a href=""><i class="fab fa-linkedin linkedin"></i></a>
+                            <a href=""><i class="fab fa-facebook-f facebook"></i></a> 
+                         </aside>
+                     </section>
+                <footer>
+                    <hr>
+                    <span>Ainda Não tem uma conta? Cadastre-se </span>
+                </footer>
+            </form>
+        </main>
+    </body>
+</html>
